@@ -14,10 +14,18 @@ __Oliver Wendell Holmes__
 - HTML
 - CSS
 - JavaScript (Initial level)
-
-
-
-
+## ***- Code***
+``` function hero(bullets, dragons){
+  if(bullets / 2 >= dragons){
+    return true;
+  }
+  return false;
+}
+```
+## ***- Experience***
+## ***- Education***
+- Belarusian State Pedagogical University named after M.Tank.
+Faculty of Natural Sciences: Chemistry and Biology
 
 
 
