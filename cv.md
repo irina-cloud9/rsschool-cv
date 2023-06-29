@@ -1,4 +1,3 @@
-                                  Resume
 ## ***Irina Khamichenka***
 ![cloud](./images/1.jpg)
 ## ***- Contacts***:
@@ -15,7 +14,8 @@ __Oliver Wendell Holmes__
 - CSS
 - JavaScript (Initial level)
 ## ***- Code***
-``` function hero(bullets, dragons){
+``` 
+function hero(bullets, dragons){
   if(bullets / 2 >= dragons){
     return true;
   }
