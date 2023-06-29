@@ -23,10 +23,12 @@ function hero(bullets, dragons){
 }
 ```
 ## ***- Experience***
+- [cv](https://github.com/irina-cloud9/rsschool-cv/tree/gh-pages)
 ## ***- Education***
 - Belarusian State Pedagogical University named after M.Tank.
 Faculty of Natural Sciences: Chemistry and Biology
-
+## ***- English language***
+- A1
 
 
 
