@@ -1,0 +1,19 @@
+.link {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+}
+
+.images {    
+    background-image: url("images/1.jpg");
+    width: 100%;
+}
+ img {
+    width: 50%;
+    height: 50%;
+    background-position: 50% bottom;
+    background-size: 15px 30px;
+}
+
+
