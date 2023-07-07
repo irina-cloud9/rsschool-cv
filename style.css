@@ -20,13 +20,13 @@ body {
 
 /* header */
 .header {
-  border: 3px solid #bd5b5b;
+  border: 3px solid #d6a6a6;
   margin: auto;
 }
 
 header img {
   margin-bottom: 10px;
-  border: 2px solid #bd5b5b;
+  border: 2px solid #d6a6a6;
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 20px;
@@ -64,6 +64,7 @@ html {
 
 .nav-list {
   list-style: none;
+  margin-right: 30px;
 }
 
 .nav-link {
@@ -76,12 +77,12 @@ html {
 }
 
 .nav-item a {
-  color: #c266ba;
+  color: #b929ad;
   text-decoration: none;
   transition: color 0.5s;
 }
 .nav-item a:hover {
-  color: #4d2323;
+  color: #c02727;
 }
 
 /* main */
@@ -93,6 +94,8 @@ html {
 .main__section {
   display: flex;
   justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .section {
@@ -111,7 +114,7 @@ html {
   font-weight: 500;
   text-transform: none;
   letter-spacing: 5px;
-  color: #c266ba;
+  color: #b929ad;
 }
 
 .list {
@@ -120,6 +123,8 @@ html {
   font-style: normal;
   text-transform: none;
   font-variant: normal;
+  text-align: left;
+  margin-left: 18px;
   letter-spacing: 2px;
   color: #000;
 }
@@ -143,7 +148,7 @@ html {
   text-align: left;
   margin-left: 20px;
   letter-spacing: 2px;
-  color: #bd5b5b;
+  color: #b929ad;
 }
 
 .oliv {
@@ -163,6 +168,18 @@ html {
   color: #000;
 }
 
+.text-decor {
+  text-decoration: none;
+  transition: 0.3s;
+  transition: 0.5s;
+  color: #000;
+}
+
+.text-decor:hover {
+  color: #c02727;
+  transition: 0.5s;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -171,7 +188,7 @@ footer {
   padding: 25px;
   font-size: 14px;
   color: #c02727;
-  background-color: #4d2323;
+  background-color: #d6a6a6;
 }
 
 .footer__links {
@@ -181,27 +198,37 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #c02727;
+  color: #000;
 }
 
 .footer__github {
   display: flex;
   align-items: center;
+  color: #000;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.footer__github:hover {
+  transition: color 0.5s;
+  color: #c02727;
 }
 
 .footer__year {
   margin: 0;
+  margin-top: 12px;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  color: #000;
 }
 
 p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
