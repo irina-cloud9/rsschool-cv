@@ -19,6 +19,10 @@ body {
 }
 
 /* header */
+.body {
+  background: #e3f0f7;
+}
+
 .header {
   border: 3px solid #d6a6a6;
   margin: auto;
