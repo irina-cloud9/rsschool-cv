@@ -1,19 +1,239 @@
-.link {
-    font-size: 50px;
-    text-align: center;
-    font-style: italic;
-    color: #333;
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.images {    
-    background-image: url("images/1.jpg");
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header */
+.header {
+  border: 3px solid #d6a6a6;
+  margin: auto;
+}
+
+header img {
+  margin-bottom: 10px;
+  border: 2px solid #d6a6a6;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sect-title {
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 5px;
+  color: hsl(340, 76%, 40%);
+  margin-left: 35%;
+}
+
+.header__item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-item a {
+  color: #b929ad;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: #c02727;
+}
+
+/* main */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
     width: 100%;
-}
- img {
-    width: 50%;
-    height: 50%;
-    background-position: 50% bottom;
-    background-size: 15px 30px;
+  }
 }
 
+.section-tit {
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 5px;
+  color: #b929ad;
+}
 
+.list {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-variant: normal;
+  text-align: left;
+  margin-left: 18px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.me {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-variant: normal;
+  text-align: left;
+  margin-left: 18px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.quore {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  color: #b929ad;
+}
+
+.oliv {
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.code {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-variant: normal;
+  text-align: left;
+  margin-left: 18px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.text-decor {
+  text-decoration: none;
+  transition: 0.3s;
+  transition: 0.5s;
+  color: #000;
+}
+
+.text-decor:hover {
+  color: #c02727;
+  transition: 0.5s;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  font-size: 14px;
+  color: #c02727;
+  background-color: #d6a6a6;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__github {
+  display: flex;
+  align-items: center;
+  color: #000;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.footer__github:hover {
+  transition: color 0.5s;
+  color: #c02727;
+}
+
+.footer__year {
+  margin: 0;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #000;
+}
+
+p {
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer__rsschool {
+  text-decoration: none;
+  color: #c02727;
+}
